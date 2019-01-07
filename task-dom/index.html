@@ -3,25 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Roboto);;
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+	</style>
 	<link rel="stylesheet" href="css.css">
 	<title>Task DOM</title>	
 </head>
 <body>
 <main>
 	<div class="top">
-		<p><h1>Услуги нашего салона красоты:</h1></p>
+		<p><h1>Виды маникюра:</h1></p>
 	</div>
 	<div class="nav">
 		<ul class="nav-list">
-			<li class="nav-list__item">Маникюр</li>
-			<li class="nav-list__item">Педикюр</li>
-			<li class="nav-list__item">Покраска бровей</li>
-			<li class="nav-list__item">Пирсинг</li>
-			<li class="nav-list__item">Ламинирование ресниц</li>
+			<li class="nav-list__item_1"><a href="#">Классический</a></li>
+			<li class="nav-list__item_2"><a href="#">Европейский</a></li>
+			<li class="nav-list__item_3"><a href="#">Японский</a></li>
+			<li class="nav-list__item_4"><a href="#">Американский</a></li>
+			<li class="nav-list__item_5"><a href="#">Бразильский</a></li>
+			<li class="nav-list__item_6"><a href="#">Аппаратный</a></li>
 		</ul>
 	</div>
 	<div class="content">
-		
+		<p id="content">
+			<h2>Для более детального ознакомления с видом маникюра выберите, пожалуйста, название слева.</h2>
+		</p>
 	</div>
 </main>
 
